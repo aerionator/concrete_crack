@@ -10,7 +10,7 @@ Note: Ukuran gambar yang lebih kecil dapat mempercepat proses setiap epoch.
 
 2. Batch Size:
 First Model: Menggunakan batch size of 32.
-Second Model: Menggunakan batch size of 64
+Second Model: Menggunakan batch size of 64.
 Note: Batch yang lebih besar dapat mempercepat training namun butuh memori yang lebih banyak.
 
 3. Convolutional Layers:
@@ -39,18 +39,18 @@ Second Model: Menggunakan langkah augmentation seperti shear_range dan zoom_rang
 
 9. Model Visualization:
 First Model: Tidak menggunakan visualisasi untuk training dan validasi accuracy dan loss.
-Second Model: Menggunakan visualisaisi untuk training accuracy dan loss
+Second Model: Menggunakan visualisaisi untuk training accuracy dan loss.
 
 10. Result :
 
 First Model:
-Dari epoch 1-10
-Tingkat accuracy maupun validasi accuracy tidak lebih dari 50%
-Tingkat loss dan validasi loss cukup tinggi yaitu 69%
-Setiap proses epoch memakan waktu setidaknya 30 menit
+Dari epoch 1-10.
+Tingkat accuracy maupun validasi accuracy tidak lebih dari 50%.
+Tingkat loss dan validasi loss cukup tinggi yaitu 69%.
+Setiap proses epoch memakan waktu setidaknya 30 menit.
 
 Second Model:
-Dari epoch 1-10
-Tingkat accuracy terus meningkat hingga 99%, begitu pula dengan validasi accuracy
-Tingkat loss terus menurun hingga 3%, sementara validasi loss mencapai sekitar 1%-4%
-Setiap proses epoch memakan waktu setidaknya 5-10 menit
+Dari epoch 1-10.
+Tingkat accuracy terus meningkat hingga 99%, begitu pula dengan validasi accuracy.
+Tingkat loss terus menurun hingga 3%, sementara validasi loss mencapai sekitar 1%-4%.
+Setiap proses epoch memakan waktu setidaknya 5-10 menit.
